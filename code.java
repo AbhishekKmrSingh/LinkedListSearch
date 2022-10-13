@@ -19,7 +19,12 @@ class Main {
             System.out.print(", ");
         }
 
-  //help creating code
+        // Iterate backward
+        System.out.print("\nReverse LinkedList: ");
+
+        while(listIterate.hasPrevious()) {
+            System.out.print(listIterate.previous());
+            System.out.print(", ");
         }
     }
 }
